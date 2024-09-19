@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theres Boby - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theres Boby - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="profile-container">
+                <div class="profile-picture">
+                    <img src="mypic.jpg" alt="Theres Boby">
+                </div>
+                <div class="profile-info">
+                    <h1>Theres Boby</h1>
+                    <p>B.Tech Computer Science Student | Aspiring Developer</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a highly motivated and adaptive individual pursuing a B.Tech degree equipped with a versatile skill set, including effective communication, programming proficiency, critical thinking, polished presentation, active listening, and a passion for overcoming challenges.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Intern - Soften Technologies</h3>
+                <p>May 2023</p>
+                <ul>
+                    <li>Developed foundational Python skills</li>
+                    <li>Built basic applications</li>
+                    <li>Understood Python's advantages over C</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Mini Project - Flutter App</h3>
+                <p>MyClinicMate - Healthcare App</p>
+                <ul>
+                    <li>Developed app for booking and managing medical appointments</li>
+                    <li>Features: secure user authentication, doctor search, appointment scheduling, feedback system</li>
+                    <li>Integrated chatbot for medical queries</li>
+                    <li>Technologies: Flutter, Firebase, Google Maps API, OpenAI API</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>St Josephs College of Engineering and Technology, Palai</h3>
+                <p>B.Tech Computer Science (2021-2025)</p>
+                <p>CGPA: 7.86</p>
+            </div>
+            <div class="education-item">
+                <h3>St Josephs HSS, Vayattuparamba</h3>
+                <p>Higher Secondary - Computer Science (2019-2021)</p>
+                <p>97 percentile</p>
+            </div>
+            <div class="education-item">
+                <h3>St Mary's Convent School, Alakode</h3>
+                <p>10th Standard (2019)</p>
+                <p>92 percentile</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C Programming</li>
+                        <li>HTML, CSS, JavaScript</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Problem Solving</li>
+                        <li>Presentation Skills</li>
+                        <li>Project Management</li>
+                        <li>Teamwork</li>
+                        <li>Adaptability & Flexibility</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>English</li>
+                        <li>Malayalam</li>
+                        <li>Hindi</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: theresmaprakavil@gmail.com</p>
+            <p>Phone: 8547286707</p>
+            <p>Location: Alakode, Kannur, Kerala</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/theres-boby-952b40254" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/TheresBoby" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Theres Boby. All rights reserved.</p>
+    </footer>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Fade in sections on scroll
+        const sections = document.querySelectorAll('section');
+        const fadeInSection = (entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        };
+
+        const sectionObserver = new IntersectionObserver(fadeInSection, {
+            root: null,
+            threshold: 0.1
+        });
+
+        sections.forEach(section => {
+            sectionObserver.observe(section);
+        });
+
+        // Typewriter effect for the title
+        const titleElement = document.querySelector('#home h1');
+        const originalTitle = titleElement.textContent;
+        titleElement.textContent = '';
+        let i = 0;
+
+        function typeWriter() {
+            if (i < originalTitle.length) {
+                titleElement.textContent += originalTitle.charAt(i);
+                i++;
+                setTimeout(typeWriter, 100);
+            }
+        }
+
+        typeWriter();
+    });
+    </script>
+</body>
+</html>
